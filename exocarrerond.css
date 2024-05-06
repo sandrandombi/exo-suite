@@ -1,0 +1,68 @@
+body{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 100vh;
+}
+.container{
+    width: 400px;
+    /* mettre la largeur */
+    height: 400px;
+    /* mettre la hauteur */
+    background-color: hsl(138, 93%, 35%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.carre1 {
+    background: hsl(143, 60%, 60%);    
+    width: 350px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.carre2{
+    background: hwb(143 20% 24%);    
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    
+}
+.carre3{
+    background: rgb(167, 211, 184);    
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    }
+.carre4{
+        background: #196e39;    
+        width: 200px;
+        height: 200px;
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        /* pour mettre sur la mm ligne flex-rap */
+        } 
+.cercle{
+background-color: blueviolet;
+width: 60px;
+height: 60px;
+border-radius: 50%;
+
+}
+.class{
+    background-color: white;
+}
+
+
+
