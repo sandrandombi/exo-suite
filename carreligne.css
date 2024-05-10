@@ -1,0 +1,76 @@
+.container{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(102, 155, 235);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.rectangle1 {
+    margin-top: 10px;
+    width: 450px;
+    height: 45px;
+    background-color: white;
+    margin-bottom: -10px;   
+    opacity: 0.9;
+
+}
+.rectangle2 {
+    
+    width: 450px;
+    height: 45px;
+    background-color:white;
+    margin-bottom: -10px;
+    opacity: 0.8;
+}
+.rectangle3 {
+    
+    width: 450px;
+    height: 45px;
+    background-color: white;    
+    margin-bottom: -10px;
+    opacity: 0.7;
+
+}
+.rectangle4 {
+    
+    width: 450px;
+    height: 45px;
+    background-color: white;
+    margin-bottom: -10px;
+    opacity: 0.6;
+
+}
+.rectangle5{
+    width: 450px;
+    height: 45px;
+    background-color: white;
+    margin-bottom: -10px;
+    opacity: 0.5;
+
+}
+.rectangle6 {
+    width: 450px;
+    height: 45px;
+    background-color: white;
+    margin-bottom: -10px;
+    opacity: 0.4;
+
+}
+.rectangle7 {
+   width: 450px;
+   height: 45px;
+    background-color: white;
+    margin-bottom: -10px;
+    opacity: 0.3;
+
+}
+.rectangle8 {
+    width: 450px;
+    height: 45px;
+     background-color: white;
+     margin-bottom: -10px;
+     opacity: 0.2;  
+ }

@@ -1,0 +1,24 @@
+.carre {
+    width: 775px;
+    height: 775px;
+    background-color: hsl(215, 71%, 73%);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.enfant1 {
+background-color: #19b60b;
+width: 150px;
+height: 150px;
+border-radius: 50%;
+justify-content: space-between;
+}
+.enfant2{
+background-color: rgb(16, 17, 17);
+width: 150px;
+height: 150px;
+border-radius: 50%;
+justify-content: space-around;
+opacity: .5;
+}

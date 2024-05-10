@@ -1,0 +1,87 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.carre {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blueviolet;
+}
+
+.rond1 {
+    background-color: white;
+    width: 480px;
+    height: 480px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.rond2 {
+    background-color: blueviolet;
+    width: 420px;
+    height: 420px;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.rond3 {
+    background-color: white;
+    width: 360px;
+    height: 360px;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.rond4 {
+    background-color: blueviolet;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+.rond5{
+    background-color: white;
+    width: 240px;
+    height: 240px;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.rond6{
+    background-color: blueviolet;
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+.rond7{
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
