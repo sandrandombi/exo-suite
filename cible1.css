@@ -12,7 +12,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: blueviolet;
+    background-color: #56e22b;
 }
 
 .rond1 {
@@ -27,7 +27,7 @@ body {
 }
 
 .rond2 {
-    background-color: blueviolet;
+    background-color: #2be268;
     width: 420px;
     height: 420px;
     border-radius: 100%;
@@ -47,7 +47,7 @@ body {
 }
 
 .rond4 {
-    background-color: blueviolet;
+    background-color: rgb(43, 226, 98);
     width: 300px;
     height: 300px;
     border-radius: 100%;
@@ -66,7 +66,7 @@ body {
     display: flex;
 }
 .rond6{
-    background-color: blueviolet;
+    background-color: rgb(80, 226, 43);
     width: 180px;
     height: 180px;
     border-radius: 100%;
