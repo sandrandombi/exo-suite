@@ -1,0 +1,181 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.carre {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(74, 55, 100);
+}
+
+.cercle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+
+.rond1 {
+    border: 1px solid white;
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    position: relative;
+    animation-name: myanimation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+
+}
+@keyframes myanimation{  
+
+    from {
+    background-color: blue;
+    transform:rotate skew(15deg 15deg)
+    }
+    to{
+    background-color: hsl(295, 100%, 50%);
+    transform: rotate(150deg);
+    
+    
+    }
+    }
+.rond2 {
+    border: 1px solid white;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+
+}
+
+.rond3 {
+    border: 1px solid white;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.rond4 {
+    border: 1px solid white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.point1 {
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    top: -5px;
+   
+}
+
+.point2 {
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    bottom: -5px;
+}
+
+.point3 {
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    right: -5px;
+}
+
+.point4 {
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    right: -5px;
+}
+
+.point5 {
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    bottom: -5px;
+}
+
+.point6 {
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    top: -5px;
+
+}
+
+.point7 {
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    top: -5px;
+}
+
+.point8 {
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    bottom: -5px;
+}
+
+.point9 {
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    right: -5px;
+}
+
+.point10 {
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    right: -5px;
+}
+
+.point11 {
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    bottom: -5px;
+}
+
+.point12 {
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    top: -5px;
+}
