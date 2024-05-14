@@ -1,0 +1,115 @@
+body{
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+ }
+
+
+.rectangle{
+    width: 100px;
+    height: 250px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.5rem;
+    position: relative;
+    
+}
+
+.rond1{
+    border-radius: 50%;
+    background-color: rgb(129, 113, 113);
+    width: 50px;
+    height: 50px;
+    /* animation-name: myanimation;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+}
+/* @keyframes myanimation {
+    from{
+        background-color: hwb(123 36% 23%);
+        transform: rotate(100deg);
+    }
+     
+    }
+    to{
+        background-color: rgb(255, 251, 31);
+        transform: rotate(100deg);
+    } */
+
+.rond2 {
+    border-radius: 50%;
+    background-color: #565750;
+    width: 50px;
+    height: 50px;
+    /* animation-name: myanimation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+}
+/* **********************pour animer le .rond2************************* */
+/* @keyframes myanimation1 {
+    from{
+        background-color: #df1608;
+        transform: rotate(100deg);
+     
+    }
+    to{
+        background-color: hsl(54, 100%, 56%);
+        transform: rotate(100deg);
+    }
+} */
+.rond3 {
+    border-radius: 50%;
+    background-color: rgb(80, 88, 80);
+    width: 50px;
+    height: 50px;
+    /* animation-name: myanimation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+}
+/* @keyframes myanimation2 {
+    from{
+        background-color: hsl(352, 93%, 45%);
+        transform: rotate(250deg);
+     
+    }
+    to{
+        background-color: rgb(57, 150, 49);
+        transform: rotate(100deg);
+    }
+} */
+.rond4{
+    position: absolute;
+    top: 20px;
+    left: 25px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #e91d0e;
+    animation: myanimation 3s infinite;
+    
+}
+/* *******************************keyframes******************************* */
+@keyframes myanimation {
+    0%,33%{
+        background-color: red;
+        transform: translateY(22px);
+    }
+    34%,77%{
+        background-color:green ;
+        transform: translateY(138px);
+    }    
+    78%,100%{
+        background-color:yellow;
+        transform: translateY(80px);
+    }
+    }
